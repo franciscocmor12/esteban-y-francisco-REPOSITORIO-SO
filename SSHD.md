@@ -72,6 +72,5 @@ O desde MobaXterm: seleccionar sesión SSH, introducir la IP, el usuario de Cent
 ### Paso 9. Comprobación y seguridad
 Confirmar que la conexión por 2237 funciona antes de considerar cerrar el puerto 22. Si se necesita bloquear el acceso anterior, verificar primero que ningún otro usuario o servicio dependa de él; revisar reglas del firewall y puertos activos antes de modificar nada. Cambiar de puerto no sustituye el uso de contraseñas fuertes o claves SSH.
 
-![Evidencia original de SSHD](https://github.com/user-attachments/assets/f046d63e-8ce6-44fd-98a0-d9077cdd3d23)
 
 **Evidencias sugeridas:** IP, archivo `sshd_config`, autorización SELinux, firewall, estado de `sshd`, puerto escuchando y conexión desde Windows.
