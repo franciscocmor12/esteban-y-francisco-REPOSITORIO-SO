@@ -27,7 +27,6 @@ sudo systemctl status httpd
 ```
 Debe aparecer `active (running)`.
 
-![Evidencia del servicio HTTPD](https://github.com/user-attachments/assets/9f0b03e8-c271-407e-b239-7a15e7283548)
 
 ### Paso 5. Probar desde CentOS
 Abrir `http://127.0.0.1` en el navegador de CentOS. También se puede probar desde la terminal:
@@ -51,7 +50,6 @@ sudo firewall-cmd --list-all
 ```
 Comprobar que aparezca `http` entre los servicios permitidos.
 
-![Evidencia del firewall](https://github.com/user-attachments/assets/ceff4c03-b57e-48ea-856f-d7858db1f425)
 
 ### Paso 8. Crear o editar la página principal
 La ubicación habitual del contenido público es `/var/www/html/`, no la página de bienvenida de `/usr/share/httpd/noindex/`.
